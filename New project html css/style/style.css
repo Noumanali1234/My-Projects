@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* header nav css */
+
+
+.nav{
+    background-color: #04233b;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.white{
+    color: white;
+    text-decoration: none;
+}
+.circle{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px;
+}
+.nav-2 li{
+   display: inline-block;
+   margin-left: 20px;
+}
+.nav-2 li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* header nav css */
+
+
+/* slider */
+
+/* .slider-div{
+    background-image: url("images/slider-bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+.bg-image{
+    background-image: url("../images/slider-bg.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 600px;
+}
+.overlay-img{
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+     width: 100%;
+    height: 100%;
+     background-color: rgba(0, 0, 0, 0.5)
+}
+.test-margin{
+    padding-top: 120px;
+}
+
+
+
+
+
+
+
+
+/* services */
+.test{
+    margin: 0 20px;
+    padding: 20px;
+}
+.service-btn{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* services end */
+
+/* abour us start */
+
+
+.image-css::before{
+    content: "";
+    background-color: #04233b;
+    border: 20px;
+    width: 100px;
+    height: 300px;
+}
+
+
+.about-us-btn:hover{
+    background-color: #04233b;
+    transition: 0.5s ease;
+}
+.about-us-btn{
+    padding: 10px 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    background-color: #0a97b0;
+}
+.content-css{
+    vertical-align: middle;
+    padding-top: 60px;
+}
+.image-css{
+    text-align: center;
+}
+/* abour us end */
+
+/* new section start */
+
+.fluid-bg{
+    color: white;
+    background-image: url("../images/track-bg.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: auto;
+}
+.input-btn{
+    padding: 10px 60px;
+    background-color: #0a97b0;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    position: relative;
+    top: 10px;
+    left: 340px;
+}
+input{
+    padding: 6.9px 100px;
+    position: absolute;
+}
+.section-css{
+    margin: auto 0;
+    padding-top: 60px;
+}
+/* new section end */

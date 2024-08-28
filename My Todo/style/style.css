@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main{
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: auto;
+}
+
+.centerItem{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

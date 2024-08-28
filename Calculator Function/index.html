@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <div class="calculator">
+        <form>
+            <input type="text" placeholder="Enter Your Number" id="formInput">
+            <div>
+              <span>
+                <button class="btn">C</button>
+                <button class="btn">/</button>
+                <button class="btn">*</button>
+                <button class="btn">Del</button>
+              </span> 
+              <span>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">-</button>
+              </span>
+              <span>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">+</button>
+              </span>
+              <span>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">Button C</button>
+              </span>
+              <span>
+                <button class="btn">%</button>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button class="btn">=</button>
+              </span>
+            </div>
+        </form>
+    </div> -->
+
+
+
+    <div class="container">
+        <h1>Calculator</h1>
+    </div>
+
+
+
+
+
+<div class="fluid bg-light">
+    <div class="container">
+
+
+        <div class="calculator">
+
+            <!-- Input -->
+            <div><Input placeholder="Enter Your Number" id="userInput"></Input></div>
+           <!-- Buttons -->
+        
+           <div>
+        
+            <div class="divA">
+                <button class="btn" id="clear">C</button>
+                <button class="btn" id="divide" onclick="numaric('/');">/</button>
+                <button class="btn" id="multiply" onclick="numaric('*');">*</button>
+                <button class="btn" id="del" onclick="removeLastDigit();">Del</button>
+            </div>
+        
+            <div class="divB">
+                <button class="btn" id="seven" onclick="numaric('7');">7</button>
+                <button class="btn" onclick="numaric('8');">8</button>
+                <button class="btn" onclick="numaric('9');">9</button>
+                <button class="btn" onclick="numaric('-');">-</button>
+            </div>
+        
+            
+            <div class="divC">
+                <button class="btn" onclick="numaric('4');">4</button>
+                <button class="btn" onclick="numaric('5');">5</button>
+                <button class="btn" onclick="numaric('6');">6</button>
+                <button class="btn" onclick="numaric('+');">+</button>
+            </div>
+        
+        
+            <div class="divDmain d-flex">
+                <div class="divDinnerDIv">
+                    <div class="div1">
+                        <button class="btn" onclick="numaric('1');">1</button>
+                        <button class="btn" onclick="numaric('2');">2</button>
+                        <button class="btn" onclick="numaric('3');">3</button>
+                    </div>
+        
+                    <div class="div2">
+                        <button class="btn" onclick="numaric('%');">%</button>
+                        <button class="btn" onclick="numaric('0');">0</button>
+                        <button class="btn" onclick="numaric('.');">.</button>
+                    </div>
+                </div>
+                <div class="divDinnerDIvA" id="test">
+                    <button class="btn" onclick="calculateResult()">=</button>
+                </div>
+            </div>
+        
+           </div>
+        
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="js/index.js"></script>
+
+    <!-- bootsrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

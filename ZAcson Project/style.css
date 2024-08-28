@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   /*  background-color: black; */
+}
+
+/* HEADER SECTION START */
+
+.header-section{
+    background-image: url("zacson/h1_hero.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.nav-section{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding: 25px;
+}
+.nav-bar{
+    margin: auto;
+}
+.nav-bar ul li{
+  color: white;
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.inner-menu{
+    display: none;
+}
+.nav-btn{
+    margin: auto 0;
+}
+.nav-btn a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+  font-weight: bold;
+  word-spacing: 2px;
+  border: 2px solid white;
+  padding: 18px 38px;
+  background: #ff1313;
+}
+ .header-second-part{
+  /*  display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; */
+   position: relative;
+   margin-left: 200px;
+   top: 10%;
+} 
+.header-second-part-first-h1{
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: -2px;
+    word-spacing: -4px;
+    font-weight: 700;
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.header-second-part-second-h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    word-spacing: -4px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.header-second-part-btn a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    word-spacing: 2px;
+    border: 2px solid white;
+    padding: 18px 38px;
+    background: transparent;
+}
+
+/* HEADER SECTION END */
+
+/* CAT SECTION START */
+
+.cat-main-section{
+ height: 450px;
+ display: flex;
+
+}
+.cat-inner-first-section{
+background-image: url("zacson/cat1.png");
+background-position: center;
+background-size: cover;
+width: 50%;
+height: 450px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+vertical-align: middle;
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.cat-inner-section-main-content{
+    text-align: center;
+    line-height: 28px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.cat-inner-section-main-content-para{
+    width: 60%;
+}
+
+.cat-inner-second-section{
+ background-image: url("zacson/cat2.png");
+ width: 50%;
+height: 450px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+vertical-align: middle;
+color: white;
+}
+.btn-main a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    word-spacing: 2px;
+    border: 2px solid white;
+    padding: 18px 38px;
+    background: transparent;
+}
+.cat-section-main-btn-second a{
+    background: #ff1313;
+}
+
+
+/* CAT SECTION END */
+
+
+/* WHAT I OFFER SECTION START */
+.what-i-offer-main-section{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.what-i-offer-main-section-main-heading{
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.what-i-offer-main-section-flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+.what-i-offer-section-div1{
+    padding: 20px;
+    line-height: 27px;
+}
+.what-i-offer-main-section-flex-first-column{
+    width: 400px;
+    height: auto;
+}
+
+
+/* WHAT I OFFER SECTION END */
+
+  /* GALLERY SECTION START */ 
+
+.main-gallery{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+}
+.main-div-gallery-image img{
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+}
+.gallery2-image img{
+    height: 450px;
+}
+.gallery2-image .test-image{
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  /* GALLERY SECTION END */
+
+
+/* PRICING SECTION START */
+.pricing-main-section{
+     background-color: black;
+}
+.pricing-svg img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ff1313;
+    margin: 20px 0px;
+}
+.pricing-section-h1{
+    text-align: center;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 700;
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
+    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.pricing{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+}
+.pricing-div-1{
+    color: white;
+    border: 1px solid white;
+    padding: 40px;
+    height: 500px;
+}
+.pricing-div-1:hover .pricing-section-btn{
+    background-color: #ff1313;
+}
+.pricing-section-h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.pricing-ul{
+    margin-top: 20px;
+}
+.test{
+    padding-left: 10px;
+}
+.pricing-ul li{
+    list-style: none;
+    line-height: 45px;
+}
+.pricing-li-span{
+    padding-left: 20px;
+}
+.fa-solid{
+    color: #ff1313;
+}
+.price-section-first-span{
+    font-size: 25px;
+    color: #ff1313;
+}
+.pricing-section-btn-div{
+    margin-top: 60px;
+}
+.pricing-section-btn{
+    border: 2px solid white;
+    padding: 15px 100px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+/* PRICING SECTION END */
+
+
+/* ABOUT ME SECTION START */
+.main-about{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: black;
+}
+.about-section-img-div{
+    width: 50%;
+}
+.about-content-section{
+    width: 50%;
+    vertical-align: middle;
+    padding-top: 70px;
+}
+.about-img{
+    width: 700px;
+    height: 500px;
+}
+.about-section-h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.about-section-para-1{
+    color: white;
+    font-size: 20px;
+}
+.about-section-para-2{
+    color: white;
+    font-size: 20px;
+}
+.about-section-btn-div a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: 900;
+   word-spacing: 2px;
+   border: 2px solid white;
+   padding: 18px 38px;
+   background: transparent;
+
+}
+
+
+/* ABOUT ME SECTION START */
+
+
+/* BLOG SECTION START */
+.blog-mian-section{
+    background-color: black;
+}
+
+/* BLOG SECTION END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querry */
+/* General Styles */
+
+/* Add your existing styles here */
+
+/* Media Queries */
+
+/* Media query for smaller screens */
+/* @media only screen and (max-width: 768px) {
+    .nav-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-bar ul li {
+      margin: 10px 0;
+    }
+  
+    .header-second-part {
+      margin-left: 0;
+      text-align: center;
+    }
+  } */
+  
+  /* Media query for medium-sized screens */
+  /* @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .nav-section {
+      padding: 15px;
+    }
+  
+    .nav-bar ul li {
+      font-size: 14px;
+      margin-left: 15px;
+    }
+  
+    .header-second-part {
+      margin-left: 100px;
+    }
+  } */
+  
+  /* Media query for larger screens */
+  /* @media only screen and (min-width: 1025px) {
+    /* Add specific styles for larger screens if needed */
+  /* } */ */
+  
+
+
+
+
+
+
+
+
+
+
+
+
